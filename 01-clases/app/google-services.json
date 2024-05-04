@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695595519163",
+    "project_id": "msdr-2024a-sw-gr2",
+    "storage_bucket": "msdr-2024a-sw-gr2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695595519163:android:13c5ee3d1e9b7db2f06d9e",
+        "android_client_info": {
+          "package_name": "com.example.a2024aswgr2msdr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFoe-q6PV2gkgEr1gLFKwrx91jFhnTFGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
