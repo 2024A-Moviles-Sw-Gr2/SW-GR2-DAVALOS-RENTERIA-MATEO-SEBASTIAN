@@ -91,6 +91,35 @@ fun main() {
     println(respuestaMap)
     val respuestaMapDos = arregloDinamico.map { it + 15 }
     println(respuestaMapDos)
+
+
+    //Filter -> Filtrar el arreglo
+    //1) Devolver una expresion
+    val respuestaFilter: List<Int> = arregloDinamico
+        .filter { valorActual:Int ->
+            val mayoresACinco: Boolean = valorActual > 5
+            return@filter mayoresACinco
+        }
+
+    val respuestaAny: Boolean = arregloDinamico
+        .any { valorActual: Int ->
+            return@any (valorActual > 5)
+        }
+    println(respuestaAny)
+
+    val respuestaAll: Boolean = arregloDinamico
+        .all { valorActual: Int ->
+            return@all (valorActual > 5)
+        }
+    println(respuestaAll)
+
+    val respuestaReduce: Int = arregloDinamico
+        .reduce { acumulado:Int, valorActual:Int ->
+            return@reduce(acumulado + valorActual)
+        }
+    println(respuestaReduce);
+
+
 }
 
 //Funciones
