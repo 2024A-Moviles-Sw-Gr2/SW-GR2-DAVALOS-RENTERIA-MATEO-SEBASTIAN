@@ -13,17 +13,17 @@ fun main() {
     val scanner = Scanner(System.`in`)
 
     while (true) {
-        println("\nBienvenido a la Gestión de Concesionarios")
-        println("1. Ver todos los concesionarios")
-        println("2. Agregar un nuevo concesionario")
-        println("3. Actualizar un concesionario")
-        println("4. Eliminar un concesionario")
-        println("5. Agregar Carro a un Concesionario")
-        println("6. Mostrar Carros de un Concesionario")
-        println("7. Actualizar Carro de un Concesionario")
+        println("\nBienvenido a la lista de Concesionarios")
+        println("1. Ver lista de los concesionarios")
+        println("2. Agregar nuevo concesionario")
+        println("3. Actualizar concesionario existente")
+        println("4. Eliminar concesionario existente")
+        println("5. Agregar carro a un concesionario existente")
+        println("6. Mostrar carros de un concesionario existente")
+        println("7. Actualizar Carro de un Concesionario existente")
         println("8. Eliminar Carro de un Concesionario")
-        println("9. Salir")
-        print("Por favor, ingrese el número de la opción que desea realizar: ")
+        println("9. Salir del programa")
+        print("Para Continuar; ingrese el número de la opción que desea realizar: ")
 
         when (scanner.nextInt()) {
             1 -> {
@@ -42,7 +42,7 @@ fun main() {
                 val nombre = scanner.next()
                 println("Ingrese la ubicación del nuevo concesionario:")
                 val ubicacion = scanner.next()
-                println("Ingrese el número de empleados del nuevo concesionario:")
+                println("Ingrese el número de trabajadores del nuevo concesionario:")
                 val numeroEmpleados = scanner.nextInt()
 
                 // Crear lista vacía de carros para el nuevo concesionario
@@ -51,7 +51,7 @@ fun main() {
                 val nuevoConcesionario =
                     Concesionario(nombre.uppercase(), ubicacion.uppercase(), true, numeroEmpleados, listaCarros)
                 gestorConcesionarios.crearConcesionario(nuevoConcesionario)
-                println("¡Concesionario agregado correctamente!")
+                println("¡Concesionario agregado con exito!")
                 pausar()
             }
 
