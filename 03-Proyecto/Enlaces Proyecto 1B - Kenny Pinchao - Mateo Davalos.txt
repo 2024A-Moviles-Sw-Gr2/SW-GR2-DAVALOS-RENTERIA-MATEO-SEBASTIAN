@@ -1,0 +1,8 @@
+// ENLACE FIGMA
+https://www.figma.com/design/QtEq4TjJQZKBSDBifJoEKe/Mockup-Moviles?node-id=0-1&t=awPuIVaa6V6jx9eL-1
+
+// ENLACE BD
+https://dbdiagram.io/d/666e0d89a179551be6f9c5ad
+
+// ENLACE DOCUMENTO HISTORIAS DE USUARIO
+https://epnecuador-my.sharepoint.com/:w:/g/personal/kenny_pinchao_epn_edu_ec/EWi5sOa3QI9OiW7p3Dve3dcBCGSj4WXGUcg8O1kDGQqJnA
