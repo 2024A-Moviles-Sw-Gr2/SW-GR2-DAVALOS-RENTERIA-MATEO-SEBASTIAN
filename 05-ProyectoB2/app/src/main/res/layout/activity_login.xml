@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <LinearLayout android:id="@+id/linearAndroidSmall1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_100pxv" style="@style/groupStylegray_900">
+        <LinearLayout android:gravity="center_vertical"
+
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <ImageView
+                android:layout_height="@dimen/_72pxh"
+                android:layout_width="@dimen/_72pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_2i6jwegytxuxxm8govbznmiirmu"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_2i6jwegytxuxxm8govbznmiirmu"/>
+            <TextView android:ellipsize="end"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15pxv"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                style="@style/txtRobotoromanbold36" android:text="@string/lbl_cinemeter"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearForm"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearForm1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageIconmailOne"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_26pxh"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="@dimen/_26pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_icon_mail"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_icon_mail"/>
+                <EditText
+                    android:background="@drawable/rectangle_bg_gray_800_radius_8"
+                    android:ellipsize="end"
+                    android:hint="@string/msg_example_example_com"
+                    android:id="@+id/etEmail" android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_8pxv"
+                    android:paddingEnd="@dimen/_16pxh"
+                    android:paddingStart="@dimen/_16pxh"
+                    android:paddingTop="@dimen/_8pxv"
+                    android:singleLine="true"
+                    android:textColorHint="@color/lime_100"
+                    style="@style/etSolidRounded" tools:ignore="Autofill"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearForm2"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageIconlcokOne"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_26pxh"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_width="@dimen/_26pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_icon_lcok"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_icon_lcok"/>
+                <EditText
+                    android:background="@drawable/rectangle_bg_gray_800_radius_8"
+                    android:ellipsize="end" android:hint="@string/msg"
+                    android:id="@+id/etPassword"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_8pxv"
+                    android:paddingEnd="@dimen/_16pxh"
+                    android:paddingStart="@dimen/_16pxh"
+                    android:paddingTop="@dimen/_8pxv"
+                    android:singleLine="true"
+                    android:textColorHint="@color/lime_100"
+                    style="@style/etSolidRounded" tools:ignore="Autofill"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnIngresar"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_8pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_8pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_ingresar"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_ingresar"/>
+            <View android:background="@color/lime_100"
+                android:id="@+id/lineLineoneOne"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginTop="@dimen/_16pxv" android:layout_width="@dimen/_300pxh"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtNotienes"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                style="@style/txtRobotoromanregular14" android:text="@string/msg_no_tienes_cuenta"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnRegistrate"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_14pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_8pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_8pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_registrate"
+                android:textAllCaps="false"
+                style="@style/btnRoundedOutline" tools:text="@string/lbl_registrate"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
